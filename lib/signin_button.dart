@@ -23,8 +23,8 @@ class SigninButton extends StatelessWidget {
         borderRadius: BorderRadius.circular(25.0),
         gradient: LinearGradient(
           colors: <Color>[
-            Color.fromRGBO(160, 92, 147, 1.0),
-            Color.fromRGBO(115, 82, 135, 1.0)
+            Color(0xff00BFA5),
+            Color(0xff64FFDA),
           ],
         ),
       ),
