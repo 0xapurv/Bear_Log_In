@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flare_flutter/flare_actor.dart';
 import 'package:flutter/rendering.dart';
 import 'package:bear_log_in/signin_button.dart';
-import 'package:bear_log_in/teddy_controller.dart';
+import 'package:bear_log_in/bear_log_in_controller.dart';
 import 'package:bear_log_in/tracking_text_input.dart';
 
 void main() => runApp(MyApp());
