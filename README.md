@@ -2,7 +2,7 @@
 
 <img align="right" src="https://i.imgur.com/hJU9Obt.gif" height="250">
 
-An example built using [JCToon's](https://www.2dimensions.com/a/JuanCarlos/files/flare/teddy/preview) Flare File as a custom UI component. <br/>
+An example built using [JCToon's](https://jctoon.myportfolio.com/) Flare File as a custom UI component. <br/>
 Bear will follow the cursor as you type or move it around.
 
 ## Overview
