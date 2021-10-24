@@ -39,3 +39,11 @@ Moreover, by [extending `FlareControls`](../../lib/flare_actor.dart#L462), `Bear
 - `play(String animationName)`
 - `advance(double elapsed)` - a base implementation which advances and mixes multiple animations
 
+> You can now extend your support by buying me a Coffee.😊👇
+
+<p>
+  <a href="https://www.buymeacoffee.com/believeInJha" title="buymecoffee">
+    <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1634550700092/BI5ragUGo.png" alt="homepage" />
+  </a>
+</p>
+
