@@ -101,8 +101,8 @@ class _MyHomePageState extends State<MyHomePage> {
                                 label: "Email",
                                 hint: "What's your email address?",
                                 onCaretMoved: (Offset? caret) {
-                                  // _bear_log_inController
-                                  //     .coverEyes(caret == null);
+                                  _bear_log_inController
+                                      .coverEyes(caret == null);
                                   _bear_log_inController.lookAt(caret);
                                 },
                               ),
