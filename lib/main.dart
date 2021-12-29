@@ -60,7 +60,6 @@ class _MyHomePageState extends State<MyHomePage> {
                     colors: [
                       Color(0xff00BFA5),
                       Color(0xff64FFDA),
-
                     ],
                   ),
                 ),
@@ -102,6 +101,8 @@ class _MyHomePageState extends State<MyHomePage> {
                                 label: "Email",
                                 hint: "What's your email address?",
                                 onCaretMoved: (Offset? caret) {
+                                  _bear_log_inController
+                                      .coverEyes(caret == null);
                                   _bear_log_inController.lookAt(caret);
                                 },
                               ),
@@ -110,7 +111,8 @@ class _MyHomePageState extends State<MyHomePage> {
                                 hint: "I'm not watching",
                                 isObscured: true,
                                 onCaretMoved: (Offset? caret) {
-                                  _bear_log_inController.coverEyes(caret != null);
+                                  _bear_log_inController
+                                      .coverEyes(caret != null ? true : false);
                                   _bear_log_inController.lookAt(null);
                                 },
                                 onTextChanged: (String value) {
